@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   margin: auto;
+    height: 44px;
+    width: 80%;
+    align-items: center;
+}
+
+nav span{
+    color: #282F65 ;
+    font-size: 27px;
+} 
+
+.accueil{
+    color: #282F65;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+.Catalogue{
+    color: #AEAEAE;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+.contact{
+    color:#AEAEAE ;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.divDroite{
+    background-color: #FFA800;
+    color: white;
+    border:  2px;
+    padding: 5px;
+    border-radius: 2px;
+   cursor: pointer;
+}
+
+.img{
+    background-image: url("../img/maison.png");
+    background-position: cover;
+    padding: 157px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    display: flex;
+}
+h1{
+    color: #C0DFF8;
+    font-weight: 700;
+    font-size: 56px;
+}
+h2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
+.commentaire{
+    color: #FFFFFF;
+}
+.recherche{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: solide 2px black;
+}
+.divGaucheRecheche{
+    display: flex;
+    border-radius: 4px;
+    // background-color: #F8F8F8;
+    input{
+        padding: 30px ;
+        // margin: 10px;
+        background-color: #F8F8F8;
+        margin-left: 6%;
+    }
+    align-items: center;  
+}
+
+.divDroiteRecheche{
+    display: flex;
+    // background-color: #FFA800;
+    color: white;
+    margin: 2%;
+    input{
+        background-color: #FFA800;
+    }
+    ;
+}
